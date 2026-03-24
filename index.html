@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KHADOK - Eat more and more...</title>
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="ICON" href="images/burger.png" />
+    <!-- ICON LINK -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- HEADER PART -->
+    <header>
+      <nav class="navbar flex wrapper between">
+        <a href="#" class="logo">Khadok.</a>
+
+        <ul class="navigation-list flex gap-3">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Menu</a>
+          </li>
+          <li>
+            <a href="#">Service</a>
+          </li>
+          <li>
+            <a href="#">About us</a>
+          </li>
+          <li>
+            <a href="#">Contact us</a>
+          </li>
+        </ul>
+
+        <div class="cart flex gap-2">
+          <a href="#" class="btn">
+            Sign in
+            <i class="fa-solid fa-right-from-bracket"></i>
+          </a>
+
+          <a href="#" class="toggle-bar">
+            <i class="fa-solid fa-bars"></i>
+          </a>
+        </div>
+
+        <ul class="mobile-nav-list">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Menu</a>
+          </li>
+          <li>
+            <a href="#">Service</a>
+          </li>
+          <li>
+            <a href="#">About us</a>
+          </li>
+          <li>
+            <a href="#">Contact us</a>
+          </li>
+          <span>
+            <a href="#" class="btn">
+              Sign in
+              <i class="fa-solid fa-right-from-bracket"></i>
+            </a>
+          </span>
+        </ul>
+      </nav>
+
+      <div>
+        <a href="#" class="cart-icon">
+          <i class="fa-solid fa-bag-shopping"></i>
+          <span class="cart-value">0</span>
+        </a>
+      </div>
+    </header>
+    <!-- MAIN PART -->
+    <main>
+      <section>
+        <div class="hero-section flex wrapper gap-4">
+          <div class="content">
+            <h1>Enjoy Your <br />Delicious <span>Food</span></h1>
+
+            <p class="para">
+              We will fill your tummy with delicious <br />
+              food with fast delivery.
+            </p>
+
+            <div class="flex gap-2">
+              <a href="#" class="btn">Order now</a>
+
+              <a href="#" class="social-icon">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fa-brands fa-tiktok"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="image-container">
+            <img src="images/delivery-boy.png" alt="delivery-boy" />
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="wrapper p-top">
+          <div class="text-center">
+            <h5>Our Services</h5>
+            <h2>How does it work?</h2>
+          </div>
+
+          <div class="flex text-center mt-4 gap-4">
+            <div class="service-card">
+              <div class="images-container">
+                <img src="images/easy-to-order.png" alt="easy-to-order" />
+              </div>
+              <h3>Easy to Order</h3>
+              <p>Only need a few steps in ordering food.</p>
+            </div>
+
+            <div class="service-card">
+              <div class="images-container">
+                <img src="images/fast-delivery.png" alt="fast-delivery" />
+              </div>
+              <h3>Fast Delivery</h3>
+              <p>Delivery that is always ontime even faster.</p>
+            </div>
+
+            <div class="service-card">
+              <div class="images-container">
+                <img src="images/best-quality.png" alt="best-quality" />
+              </div>
+              <h3>Best Quality</h3>
+              <p>Not only fast for us in quality is also number one.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="wrapper p-top">
+          <div class="text-center">
+            <h5>Our Menu</h5>
+            <h2>The most Popular</h2>
+          </div>
+
+          <div class="card-list text-center flex mt-4 gap-2">
+            <!-- <div class="order-card">
+              <div class="card-image">
+                <img src="images/burger.png" alt="burger" />
+              </div>
+              <h4>Double Beef Berger</h4>
+              <h4 class="price">BDT 200</h4>
+              <a href="#" class="btn">Add to cart</a>
+            </div> -->
+          </div>
+
+          <div class="cart-tab">
+            <h3 class="text-center">
+              Your Cart
+              <hr />
+            </h3>
+
+            <div class="cart-list">
+              <!-- <div class="item">
+                <div class="item-image">
+                  <img src="images/burger.png" alt="burger" />
+                </div>
+
+                <div>
+                  <h4>Double Beef Burger</h4>
+                  <h4 class="item-total">BDT 200</h4>
+                </div>
+
+                <div class="flex">
+                  <a href="#" class="quantity-btn">
+                    <i class="fa-solid fa-minus"></i>
+                  </a>
+                  <h4 class="quality-value">1</h4>
+                  <a href="#" class="quantity-btn">
+                    <i class="fa-solid fa-plus"></i>
+                  </a>
+                </div>
+              </div> -->
+            </div>
+
+            <div class="total-container text-center">
+              <h4>Total:</h4>
+              <h4 class="cart-total">BDT 0.00</h4>
+            </div>
+
+            <div class="btn-container flex gap-2">
+              <a href="#" class="btn close-btn">Close</a>
+              <a href="#" class="btn">Check out</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="wrapper p-top flex gap-3">
+          <div class="image-container">
+            <img
+              src="images/delivery-boy-with-phone.png"
+              alt="delivery-boy-with-phone"
+            />
+          </div>
+
+          <div class="content">
+            <h5>Our reviews</h5>
+            <h2>What they Say?</h2>
+
+            <div class="client mt-3">
+              <div class="profile flex">
+                <img
+                  id="client-img"
+                  src="images/profile1.jpeg"
+                  alt="profile1"
+                />
+
+                <div>
+                  <h4 id="client-name">Guy Hawkins</h4>
+                  <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+
+              <p id="client-says" class="mt-2">
+                Foodie is the best. Besides the many delicious meals, the
+                service is also very good, especially very fast delivery. I
+                highly recommend Foodie to you.
+              </p>
+            </div>
+
+            <div class="flex between mt-2">
+              <button onclick="prev()">
+                <i class="fa-solid fa-arrow-left"></i>
+              </button>
+              <button onclick="next()">
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="wrapper p-top">
+          <div class="app-container flex gap-3">
+            <div class="image-container">
+              <img src="images/mobile-app.png" alt="mobile-app" />
+            </div>
+
+            <div class="content">
+              <h5>our application</h5>
+              <h2>simple way to order your food</h2>
+
+              <p class="para">
+                Discover food wherever and whenever and get your food delivery
+                quickly.
+              </p>
+
+              <a href="#" class="btn">Get the app</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="wrapper p-top">
+          <div class="content text-center">
+            <h5>Our Subscribe</h5>
+            <h2>Subscribe To Our Newsletter</h2>
+
+            <p class="para m-auto">
+              We recommend you to subscribe our newspaper, drop your email below
+              to get daily update about us.
+            </p>
+
+            <div class="newsletter m-auto flex between">
+              <input type="text" placeholder="Enter your email address" />
+              <a class="btn">Subscribe</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER PART -->
+    <footer>
+      <div class="footer-container wrapper flex gap-4">
+        <div class="footer-content">
+          <a href="#" class="logo">Khadok.</a>
+
+          <p class="mt-one-half">
+            We will fill your tummy with delicious <br />
+            food with fast delivery.
+          </p>
+
+          <div class="flex gap-2 mt-one-half">
+            <a href="#" class="social-icon">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-content">
+          <ul>
+            <li>
+              <h4>Our Menu</h4>
+            </li>
+
+            <li class="mt-one-half">
+              <a href="#">Spacial</a>
+            </li>
+            <li class="mt-one-half">
+              <a href="#">Popular</a>
+            </li>
+            <li class="mt-one-half">
+              <a href="#">Categories</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-content">
+          <ul>
+            <li>
+              <h4>Company</h4>
+            </li>
+
+            <li class="mt-one-half">
+              <a href="#">Why Khadok</a>
+            </li>
+            <li class="mt-one-half">
+              <a href="#">Partner with us</a>
+            </li>
+            <li class="mt-one-half">
+              <a href="#">About us</a>
+            </li>
+            <li class="mt-one-half">
+              <a href="#">FAQ's</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-content">
+          <ul>
+            <li>
+              <h4>Support</h4>
+            </li>
+
+            <li class="mt-one-half">
+              <a href="#">Account</a>
+            </li>
+            <li class="mt-one-half">
+              <a href="#">Support center</a>
+            </li>
+            <li class="mt-one-half">
+              <a href="#">Feedback</a>
+            </li>
+            <li class="mt-one-half">
+              <a href="#">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

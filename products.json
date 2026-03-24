@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Double Beef Burger",
+    "price": "BDT 200.00",
+    "image": "images/burger.png"
+  },
+  {
+    "id": 2,
+    "name": "Veggie Pizza",
+    "price": "BDT 650.50",
+    "image": "images/pizza.png"
+  },
+  {
+    "id": 3,
+    "name": "Fried Chicken",
+    "price": "BDT 120.00",
+    "image": "images/fried-chicken.png"
+  },
+  {
+    "id": 4,
+    "name": "Chicken Roll",
+    "price": "BDT 80.00",
+    "image": "images/chicken-roll.png"
+  },
+  {
+    "id": 5,
+    "name": "Sub Sandwich",
+    "price": "BDT 100.00",
+    "image": "images/sandwich.png"
+  },
+  {
+    "id": 6,
+    "name": "Chicken Lasagna",
+    "price": "BDT 300.00",
+    "image": "images/lasagna.png"
+  },
+  {
+    "id": 7,
+    "name": "Italian Spaghetti",
+    "price": "BDT 500.00",
+    "image": "images/spaghetti.png"
+  },
+  {
+    "id": 8,
+    "name": "Spring Roll",
+    "price": "BDT 360.00",
+    "image": "images/spring-roll.png"
+  }
+]
